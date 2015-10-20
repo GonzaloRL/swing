@@ -1,9 +1,19 @@
 package swing;
 
-public class gonzalo {
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		String nombre="mala piu";
-		System.out.println(nombre);
+public class gonzalo{
+	private String name;
+	private String city;
+	public String getName() {
+		return name;
 	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public String getCity() {
+		return city;
+	}
+	public void setCity(String city) {
+		this.city = city;
+	}
+	
 }
